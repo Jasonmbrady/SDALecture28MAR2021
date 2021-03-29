@@ -1,0 +1,13 @@
+* {
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
+}
+
+.para {
+    border: solid black 1px;
+}
+
+.text {
+    color: lemonchiffon;
+}
