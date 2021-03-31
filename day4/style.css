@@ -1,0 +1,50 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    width: 1000px;
+    height: 700px;
+    background-color: navy;
+    margin: auto;
+    padding: 5px;
+}
+.header {
+    color: silver;
+    background-color: crimson;
+    padding: 20px 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+#html {
+    vertical-align: top;
+    width: 250px;
+    margin-right: 195px;
+}
+.link-bar {
+    vertical-align: top;
+    display: inline-block;
+    width: 250px;
+    color: black;
+    text-decoration: underline;
+    background-color: deepskyblue;
+    list-style-position: inside;
+    padding: 10px;
+    border-radius: 10px;
+    margin-right: 175px;
+}
+
+#css {
+    display: inline-block;
+    width: 550px;
+}
+
+#outerlist {
+    padding-left: 10px;
+}
+
+#tuna-fish{
+    font-weight: bold;
+}
