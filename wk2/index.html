@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Hello, world</h1>
+
+    <h2>Data Types</h2>
+    <ul>
+        <li>number - 1 or 3.141</li>
+    </ul>
+    <script>
+        console.log("hello, world");
+        function shift(arr) {
+        var tempArr = [] // empty array to temporaroly contain values from arr
+        for(var i=1; i<arr.length; i++){
+            tempArr.push(arr[i]); // add all but the first element of arr (arr[0]) to tempArr
+        }
+        tempArr[tempArr.length] = arr[0]; // add arr[0] on the end of tempArr
+        arr = tempArr; // set arr to the new, reordered array
+        return arr.pop(); // pop off the last value of arr (which was previously arr[0])
+        }
+        var arr1 = ["hello, world","b","c","d","e"]
+        console.log(shift(arr1))
+    </script>
+</body>
+</html>
